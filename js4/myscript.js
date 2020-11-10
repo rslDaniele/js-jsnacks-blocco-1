@@ -2,7 +2,7 @@ var partenza = ['Michele', 'Fabio', 'Roberto', 'Giovanni', 'Simone', 'Chiara'];
 
 var numeri = [];
 
-while (numeri.lenght < 2) {
+while (numeri.length < 2) {
   var inputUser = parseInt(prompt("Inserisci un numero tra 0 e 5"));
 
   if (inputUser < 0) {
